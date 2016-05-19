@@ -1,0 +1,96 @@
+/*@charset "utf-8";*/
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Open Sans',sans-serif;
+}
+
+#login{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 2%;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+}
+
+#triangle{
+  width: 0;
+  border-top: 12x solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #00B2E8;
+  border-left: 12px solid transparent;
+  margin: 0 auto;
+}
+
+h1 {
+  background: #00B2E8;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  padding: 20px 0;
+  font-size: 150%;
+  font-weight: 300;
+  text-align: center;
+  color: #4c4c4c;
+}
+
+form {
+  background: #f0f0f0;
+  padding: 6% 4%;
+}
+
+input:focus {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: #00A6D8;
+}
+
+input[type="text"], input[type="password"] {
+  width: 92%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  padding: 4%;
+  font-size: 95%;
+  color: #555;
+  font-family: FontAwesome, 'Open Sans', sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+input[type="submit"],input[type="button"] {
+  width: 100%;
+  background: #00B2E8;
+  border: 0;
+  padding: 4%;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 120%;
+  color: #fff;
+  cursor: pointer;
+  transition: background .3s;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+}
+
+input[type="submit"]:hover{
+  background: #00A6D8;
+}
+
+input[type="button"]:hover{
+  background: #00A6D8;
+}
+
