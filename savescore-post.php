@@ -1,11 +1,10 @@
 <?php
 error_reporting(0);
 // session_start();
-$_SESSION['state_posttest'] = 'ok';
 //echo "hi";
 include 'check_session.php';
 include 'dbconnection.php';
-
+$_SESSION['state_posttest'] = 'ok';
 
 $select_id1  = $_POST['select_answer1'];
 $select_id2  = $_POST['select_answer2'];
